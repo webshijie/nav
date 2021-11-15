@@ -3,11 +3,11 @@ import { IConfig } from './src/types'
 const c: IConfig = {
   // Deployment language - 部署语言
   // zh-CN | en
-  language: 'en',
+  language: 'zh-CN',
 
   // [Mondatory], Please replace following Github url with your own Github address which you forked in.
   // [必填], 请填写您的仓库地址
-  gitRepoUrl: 'https://github.com/xjh22222228/nav',
+  gitRepoUrl: 'https://github.com/webshijie/nav',
 
   // Deployment branch name
   // 部署分支
@@ -25,33 +25,33 @@ const c: IConfig = {
 
   // Whether to show the Github icon in the upper right corner
   // 是否显示右上角的 Github 图标
-  showGithub: true,
+  showGithub: false,
 
   // Your website address is good for SEO
   // 您的网站地址，有利于SEO
-  homeUrl: 'https://nav3.cn',
+  homeUrl: 'https://wweebb.cn',
 
   // Site title
   // 网站标题
-  title: '发现导航 - 精选实用导航网站',
+  title: 'WEB世界 - 发现你的世界',
 
   // Site description
   // 网站描述
-  description: '发现导航 - 精选实用导航网站',
+  description: 'WEB世界 - 发现你的世界',
 
   // Site keywords
   // 网站关键字
-  keywords: '导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js',
+  keywords: '导航主页,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,WEB世界',
 
   // Default theme: Light | Sim | Side | App | Shortcut
   // 默认主题: Light | Sim | Side | App | Shortcut
-  theme: 'Light',
+  theme: 'Side',
 
   // The content at the bottom of the website, copyright information, record number, can be HTML
   // 网站底部内容, 版权信息、备案号, 可以是 HTML
   footerContent: `
     <div style="font-weight: bold;">共收录\${total}个网站</div>
-    <div>Copyright © 2018-2021 nav3.cn, All Rights Reserved</div>
+    <div>Copyright © 2021-2022 WEB世界, All Rights Reserved</div>
   `,
 
   // Alibaba Vector Gallery https://www.iconfont.cn/
@@ -63,7 +63,7 @@ const c: IConfig = {
   // Baidu Statistics Address
   // 百度统计地址
   // https://tongji.baidu.com/web/welcome/login
-  baiduStatisticsUrl: 'https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba',
+  baiduStatisticsUrl: 'https://hm.baidu.com/hm.js?660a2c2f9aaa4b882e8c6ed3c3b29285',
 
   // CNZZ Statistics address
   // CNZZ 统计地址
@@ -75,9 +75,9 @@ const c: IConfig = {
   simThemeConfig: {
     // Poster illustration - 海报图
     posterImageUrls: [
-      'https://raw.sevencdn.com/xjh22222228/nav/image/sim-wallpaper.jpg'
+      '#'
     ],
-    description: '这里收录多达 <b>${total}</b> 个优质网站， 助您工作、学习和生活'
+    description: 'WEB世界收录多达 <b>${total}</b> 个优质网站， 助您工作、学习和生活'
   }
 }
 
