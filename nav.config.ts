@@ -3,7 +3,7 @@ import { IConfig } from './src/types'
 const c: IConfig = {
   // Deployment language - 部署语言
   // zh-CN | en
-  language: 'en',
+  language: 'zh-CN',
 
   // [Mondatory], Please replace following Github url with your own Github address which you forked in.
   // [必填], 请填写您的仓库地址
